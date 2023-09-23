@@ -1,7 +1,7 @@
 #include "../../include/hidapi.h"
+#include "api.h"
 #include <iostream>
 
-#define MAX_STR 255
 
 void startApi() {
     wchar_t wstr[MAX_STR];
