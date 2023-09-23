@@ -1,0 +1,4 @@
+#ifndef FAKE_KBM_CHECKER_CHECK_H
+#define FAKE_KBM_CHECKER_CHECK_H
+void startChecker();
+#endif //FAKE_KBM_CHECKER_CHECK_H
