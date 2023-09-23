@@ -1,5 +1,6 @@
 #include "../../include/hidapi.h"
 #include <iostream>
+
 #define MAX_STR 255
 
 void startApi() {
@@ -7,7 +8,7 @@ void startApi() {
     hid_init();
     auto handle = hid_open(0x1532, 0x0084, nullptr);
     if (!handle) {
-        std::cout << "Couldn't open device"<<std::endl;
+        std::cout << "Couldn't open device" << std::endl;
         hid_exit();
         return;
     }
