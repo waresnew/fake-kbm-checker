@@ -5,6 +5,9 @@
 
 
 int main(int argc, char *argv[]) {
+    std::cin.unsetf(std::ios::dec);
+    std::cin.unsetf(std::ios::hex);
+    std::cin.unsetf(std::ios::oct);
     std::string paramHelp = "Use '-check' to run the fake input checker. Use '-api' to run the fake input sender.";
     if (argc == 1) {
         std::cout << "Invalid number of arguments. " << paramHelp << std::endl;
