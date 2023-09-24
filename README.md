@@ -1,4 +1,4 @@
-# Fake Keyboard/Mouse Checker
+# Fake Keyboard/Mouse Checker for Windows
 
 Simple keyboard and mouse hook that detects synthetic input.
 
